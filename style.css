@@ -8,11 +8,6 @@ body {
 }
 
 #bm {
-  width: 100%;
-  height: 100%;
-}
-
-#bm canvas {
   width: 110%;
   height: 100%;
   left: -5%;
