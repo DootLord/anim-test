@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "valo";
+  src: url(fonts/valo.ttf);
+}
+
+@font-face {
+  font-family: "terminal";
+  src: url(fonts/term.ttf);
+}
+
+html,
+body {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  color: #ffffff
+}
+
+#bm {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: "valo";
+  color: #fa4454;
+  letter-spacing: 0.5vmin;
+  font-size: 14vmin;
+  text-align: center;
+  margin-bottom: 0.15em;
+  display: none; 
+}
+
+h2 {
+  font-family: "valo";
+  color: #dc3d4b;
+  letter-spacing: 0.5vmin;
+  font-size: 4vmin;
+  text-align: center;
+  margin-top:0;
+  display: none;
+}
+
+img {
+  width: 30vmin;
+  border-radius: 200px;
+  margin-top:8vmin;
+  display: none;
+}
+
+#console-text {
+  font-size:8vmin;
+  font-family:"terminal";
+  margin-left: auto;
+  margin-right: auto;
+}
+
